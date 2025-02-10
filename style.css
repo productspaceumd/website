@@ -1,4 +1,12 @@
 /* General Styling */
+html{
+    font-size: 25px;
+    background-color: white;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
