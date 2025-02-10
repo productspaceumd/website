@@ -1,0 +1,193 @@
+
+html{
+    font-size: 25px;
+    background-color: white;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+/* Style the navbar */
+#navbar {
+    display: flex;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0px 0px 5px lightblue;
+    align-items: center;
+    
+}
+#leftNav{
+  display: flex;
+  align-items: center;
+}
+
+#rightNav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Ensure proper spacing */
+  gap: 15px; /* Adds spacing between elements */
+}
+#leftNav img {
+  margin-left: 30px; /* Add spacing between the icon and the button */
+}
+  
+
+#rightNav img {
+  margin: 0 10px; /* Adjust spacing */
+  height: 60px; /* Ensure consistent height */
+  vertical-align: middle; /* Align with button */
+}
+  
+  /* Navbar links */
+  #navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 35px;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+
+  #footer a{
+    color: gray;
+    text-decoration: none;
+  }
+
+  #footer a:hover{
+    color: purple;
+    text-decoration: underline;
+  }
+  
+  #navbar a:hover {
+    color: purple; 
+    text-decoration: underline;
+  }
+  h1{
+    font-size: 3.5rem;
+  }
+  /* Page content */
+  .content {
+    padding: 16px;
+  }
+
+  #about{
+    padding: 20px; 
+  }
+
+  .joinButton {
+    color: white;
+    background-color: purple;
+    border-radius: 35px;
+    font-size: 1rem;
+    padding: 10px 20px; /* Adjust padding */
+    border: none;
+    white-space: nowrap; /* Prevents text from wrapping */
+}
+ .learnButton{
+    color:white; 
+    background-color: purple;
+    border-radius: 35px;
+    font-size: 1rem;
+    padding: 20px; 
+    border: none;
+ }
+
+ .joinButton:hover{
+    opacity: 70%;
+ }
+ .row {
+    display: flex;
+  }
+  #intro{
+    background-image: url(mesh-gradient.png);
+    background-repeat: repeat-x;
+    background-size: cover; 
+  }
+  #for{
+    background-image: url(mesh-gradient.png);
+    background-repeat: repeat-x;
+    background-size: cover; 
+  }
+  #about{
+    background-image: url(mesh-gradient.png);
+    background-repeat: repeat-x;
+    background-size: cover; 
+  }
+
+  #student{
+    background-image: url(mesh-gradient.png);
+    background-repeat: repeat-x;
+    background-size: cover; 
+    padding: 100px;
+  }
+
+  #studentCol{
+    padding-left: 20px;
+  }
+  #studentPara{
+    font-size: 1.2rem;
+    padding:59px; 
+  }
+  #flyer{
+    margin-left: 25%;
+    width: 1000px; 
+  }
+  .column {
+    flex: 50%;
+    margin: 100px ; 
+  }
+  .columnF{
+    flex: 25%;
+    margin-top: 25px;
+  }
+  .columnA{
+    text-align: center;
+    padding:50px; 
+
+  }
+  .columnA p{
+    font-size: 1.4rem;
+  }
+
+  #leftColumn{
+    margin-left: 146px;
+  }
+  #leadership{
+    padding: 10%;
+  }
+  #mission{
+    font-size: 2.5rem;
+    padding: 60px 150px 60px 150px; 
+    text-align: center;
+  }
+  .headshot{
+    width: 400px;
+    border-radius: 15%;
+  }
+  .flexbox{
+    display: flex;
+    justify-content: center;
+  }
+  .person{
+    text-align: center;
+    padding: 20px;
+  }
+  #emailLink{
+    color: black; 
+  }
+  #emailLink a:hover{
+    color: purple;
+  }
+  #footer{
+    font-size: 22px;
+  }
+  #copyright{
+    color:gray; 
+    font-size: 22px;
+    margin-right: 50px; 
+    text-align: right;
+  }
